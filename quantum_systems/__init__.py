@@ -12,7 +12,10 @@ from .custom_system import (
 )
 from .random_basis import RandomBasisSet
 from quantum_systems.sinc_dvr.one_dim.sinc_dvr import ODSincDVR
-from quantum_systems.quantum_dots.one_dim.one_dim_qd import ODQD
+from quantum_systems.quantum_dots.one_dim.one_dim_potentials import (
+    MorsePotentialDW,
+    )
+from quantum_systems.quantum_dots.one_dim.one_dim_qd import ODQD, ODMorse
 from quantum_systems.quantum_dots.two_dim.two_dim_ho import (
     TwoDimensionalHarmonicOscillator,
     TwoDimensionalDoubleWell,
